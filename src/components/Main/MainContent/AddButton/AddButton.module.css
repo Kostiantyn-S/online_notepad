@@ -1,0 +1,26 @@
+.add_button {
+    width: 300px;
+    height: 300px;
+    border: 10px solid red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.plus {
+    background: red;
+    height: 100px;
+    width: 20px;
+    position: relative;
+    left: 40px;
+    margin-left: 100px;
+}
+.plus:after {
+    content: "";
+    height: 20px;
+    width: 100px;
+    background: red;
+    position: absolute;
+    left: -40px;
+    top: 40px;
+}

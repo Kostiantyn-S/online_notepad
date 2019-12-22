@@ -1,0 +1,29 @@
+.xbt {
+    border: solid 2px #555555;
+    float: right;
+    border-radius: 50%;
+    text-align: right;
+    color: #FFFFFF;
+    background: #EE0000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana;
+    box-shadow: 0 0 5px rgba(0,0,0,0.9);
+    padding: 3px 7px 4px 7px;
+    display: inline;
+    position: relative;
+    top: -35px;
+    left: -10px;
+}
+
+.xbt:hover {
+    background: #990000;
+    color: #FAFAFA;
+}
+
+.xbt div {
+    height:100%;
+    width:100%;
+    color: #FFFFFF;
+    font-size: 20px;
+}

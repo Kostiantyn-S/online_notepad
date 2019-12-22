@@ -1,0 +1,8 @@
+.newNote {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    background-color: #fbffbf;
+    border-radius: 20px;
+    z-index: 1000;
+}
