@@ -1,18 +1,12 @@
 .time_wrapper {
-    width: 250px;
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 
 .time {
-    font-size: 7vh;
-    padding: 10px;
+    font-size: 40px;
     font-family:'digital-clock-font';
-}
-
-@media (max-width: 640px) {
-    .time {
-        font-size: 3vh;
-        padding: 5px;
-    }
+    color: #6a8fb2;
 }

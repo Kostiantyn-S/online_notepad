@@ -1,18 +1,12 @@
 .date_wrapper {
-    width: 250px;
+    width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 
 .date {
-    font-size: 7vh;
-    padding: 10px;
+    font-size: 40px;
     font-family:'digital-clock-font';
-}
-
-@media (max-width: 640px) {
-    .date {
-        font-size: 3vh;
-        padding: 5px;
-    }
+    color: red;
 }
