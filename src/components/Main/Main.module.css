@@ -1,7 +1,6 @@
 .main {
-    height: 80vh;
     width: 100%;
-    margin-top: 10vh;
-    display: flex;
-    background: #f9f9f9;
+    min-height: 500px;
+    background: #d1d1cf;
+    margin: 56px 0;
 }
