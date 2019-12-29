@@ -1,7 +1,6 @@
 .footer {
     width: 100%;
-    height: 56px;
-    padding: 0 16px 0 30px;
+    padding: 0 16px;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr 7fr;
     background: white;
@@ -10,19 +9,89 @@
     z-index: 100;
 }
 
-.footer p {
+.footer .sort_description {
     font-family: Arial;
     font-size: 22px;
     font-weight: bold;
     font-style: italic;
     color: red;
     user-select: none;
+    text-align: center;
 }
 
-.footer div {
+.footer .sort_day {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.footer .sort_day div:hover {
+    text-decoration: underline;
+}
+
+.footer .sort_day div:active {
+    text-decoration: underline;
+    color: blue;
+}
+
+.footer .sort_week {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .sort_week div:hover {
+    text-decoration: underline;
+}
+
+.footer .sort_week div:active {
+    text-decoration: underline;
+    color: blue;
+}
+
+.footer .sort_month {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .sort_month div:hover {
+    text-decoration: underline;
+}
+
+.footer .sort_month div:active {
+    text-decoration: underline;
+    color: blue;
+}
+
+.footer .sort_year {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .sort_year div:hover {
+    text-decoration: underline;
+}
+
+.footer .sort_year div:active {
+    text-decoration: underline;
+    color: blue;
+}
+
+.footer .sort_dont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .sort_dont div:hover {
+    text-decoration: underline;
+}
+
+.footer .sort_dont div:active {
+    text-decoration: underline;
+    color: blue;
 }
 
 .footer div div {
@@ -33,13 +102,4 @@
     color: #6a8fb2;
     cursor: pointer;
     user-select: none;
-}
-
-.footer div div:hover {
-    text-decoration: underline;
-}
-
-.footer div div:active {
-    text-decoration: underline;
-    color: blue;
 }
