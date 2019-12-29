@@ -1,0 +1,23 @@
+.help_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+.help {
+    width: 40px;
+    height: 40px;
+    border: 3px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help p {
+    font-family: Arial;
+    font-weight: 800;
+    font-size: 30px;
+    color: red;
+}
