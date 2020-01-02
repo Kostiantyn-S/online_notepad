@@ -94,7 +94,7 @@
     color: blue;
 }
 
-.footer div div {
+.footer div .sort_link {
     font-family: Arial;
     font-size: 22px;
     font-style: italic;
